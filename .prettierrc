@@ -1,8 +1,0 @@
-{
-	"arrowParens": "always",
-	"experimentalTernaries": true,
-	"jsxSingleQuote": true,
-	"printWidth": 90,
-	"useTabs": true,
-	"trailingComma": "all"
-}

@@ -1,13 +1,13 @@
-import { useEffectOnce } from "react-use";
-import { Chat } from "./views/chat";
-import { Mode, applyMode } from "@cloudscape-design/global-styles";
+import { applyMode, Mode } from '@cloudscape-design/global-styles';
+import { useEffectOnce } from 'react-use';
+import { Chat } from './views/chat';
 
 function App() {
-	useEffectOnce(() => {
-		applyMode(Mode.Dark);
-	});
+  useEffectOnce(() => {
+    applyMode(Mode.Dark);
+  });
 
-	return <Chat />;
+  return <Chat />;
 }
 
 export default App;
