@@ -1,0 +1,19 @@
+.chat-layout {
+	display: grid;
+	grid-template-rows: 1fr auto;
+	height: calc(100vh - 60px);
+	overflow: hidden;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.message-container {
+	overflow-y: auto;
+	padding: 16px;
+	scrollbar-width: none;
+}
+
+.prompt-container {
+	padding: 16px;
+}
